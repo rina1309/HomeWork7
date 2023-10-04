@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #dbf4c4;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input {
+  display: flex;
+  width: 350px;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form{
+  padding: 10px 20px;
+  background-color: #06361d;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.preview {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+/* todo */
+.wrapper {
+  width: 600px;
+  height: auto;
+  border:1px solid rgb(86, 8, 155);
+  background-color: #dbc5e8;
+  box-shadow: 0 0 15px black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container {
+  padding: 40px;
+}
+h1 .todo {
+display: flex;
+justify-content: center;
+}
+.toDo{
+  width: 460px;
+  height: 30px;
+}
+.ToDo{
+  margin-top: 40px;
+  height: 35px;
+  width: 150px;
+  background-color: rgb(205, 153, 220);
+  border: 0.5px solid black;
+
+}
+.li_todo {
+  list-style: none;
+  width: 500px;
+  height: 30px;
+  background-color: rgb(205, 153, 220);
+  border: 1px solid rgb(86, 8, 155);
+  border-radius: 10px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* header */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+.header-content{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* twoBlocks */
+.container-blocks {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.red {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  cursor: pointer;
+  box-shadow: 0 0 35px black;
+  border-radius: 20px;
+}
+.blue {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  cursor: pointer;
+  box-shadow: 0 0 35px black;
+  border-radius: 20px;
+}
